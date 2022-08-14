@@ -428,6 +428,7 @@ body.dark-theme {
   }
 
   .resume {
+    border-radius: 20px;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     background-color: var(--container-color);
