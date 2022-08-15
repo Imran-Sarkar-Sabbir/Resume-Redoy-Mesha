@@ -359,8 +359,11 @@ body.dark-theme {
 .education__studies,
 .experience__company,
 .experience__proyect {
-  font-size: var(--small-font-size);
+  /* font-size: var(--small-font-size); */
+  font-size: var(--normal-font-size);
   color: var(--title-color);
+  font-weight: 700;
+
 }
 
 .education__year {
@@ -456,4 +459,11 @@ body.dark-theme {
   .home__container {
     gap: 1.5rem;
   }
+}
+
+
+/*  ============  */
+
+.contact__info {
+  color: inherit;
 }
