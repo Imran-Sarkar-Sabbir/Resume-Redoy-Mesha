@@ -64,22 +64,32 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2021 - Actualidad",
-        company: "Banco Ripley",
-        description: [
-          "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
-          "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
-        ],
+        title: 'INTERNSHIP',
+        period: "07.2022 – 09.2022 | Turku, Finland",
+        company: `Former IT Analyst in HCL(Work For Barclays) and two years of
+        experience as an accomplished Assistant Supervisor in Nafisha
+        Enterprise.`,
+        description: ['Assisting in Talent Boost activities and preparing for MSc thesis.'],
       },
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Oct. 2021",
-        company: "Altiuz",
+        title: "IT Analyst. IT Service Desk",
+        period: "06.2021 – 08.2021 | Vilnius, Lithuania",
+        company: `HCL Technologies is a leading global IT services company that helps
+        global enterprises re-imagine and transform their businesses through
+        Digital technology transformation. The company is primarily engaged
+        in providing a range of software services business process outsourcing
+        and infrastructure services.`,
         description: [
-          "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-          "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+          "Deliver outstanding customer service by answering all queries.",
+          "Handle incoming calls and log call details into relevant tickets.",
+          "Troubleshoot technical issues and take ownership through to resolution.",
+          "Proactively manage customers' expectations by updating them on the progress of their outstanding incidents.",
+          "Identify opportunities to improve current tools processes and procedures to facilitate customer journey.",
+          "Identifying the key issues in daily situations and coming to the root cause of the problem.",
+          "Evaluating the impact of the issue for the business and escalating urgent and business-critical issues on time in line with internal procedures.",
+          "Ensure that all activities and duties are carried out in full compliance with regulatory requirements.",
+          "Show a flexible approach in providing a wide range of support to multiple services across the IT Service Desk."
+
         ],
       },
     ],
