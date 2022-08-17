@@ -9,6 +9,7 @@ import { SocialMedia } from "../Components/SocialMedia";
 import { AboutMe } from "../Components/AboutMe";
 import { Menu } from "../Components/Menu";
 import { SEO } from "../Components/SEO";
+import { VRGPProject } from '../Components/VrgpProject'
 
 import { Data as dataSchema } from "../Schemas/Data";
 import { Menu as menuSchema } from "../Schemas/Menu";
@@ -24,17 +25,18 @@ export const Resume = () => {
     return () => media.removeEventListener("change", listener);
   }, [matches]);
 
-  const { profile, aboutMe, skills, socialMedia, experience } = dataSchema;
+  const { profile, aboutMe, skills, socialMedia, experience, vrgProject } = dataSchema;
 
   return (
     <>
-      <SEO  {...profile} {...aboutMe}/>
+      <SEO  {...profile} {...aboutMe} />
       {!matches && <Menu {...menuSchema} />}
       <main className="l-main bd-container" id="bd-container">
         <div className="resume" id="area-cv">
           <div className="resume__left">
             <Profile {...profile} />
-            <AboutMe {...aboutMe} />
+            {/* <AboutMe {...aboutMe} /> */}
+
             <Skills {...skills} />
             <SocialMedia {...socialMedia} />
           </div>
