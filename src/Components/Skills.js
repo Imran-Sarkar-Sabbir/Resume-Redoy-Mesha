@@ -10,6 +10,7 @@ export const Skills = ({
   return (
     <>
       <section className="technical-skills section" id="skills">
+        <h2 className="section-title">VRGP PROJECT</h2>
         <h2 className="education__title" style={{ display: "inline" }} >{vrgProject.type} :</h2>
         <p style={{
           display: "inline",

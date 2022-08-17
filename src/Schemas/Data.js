@@ -17,14 +17,6 @@ export const Data = {
     softLabel: "Skills",
     technicalSkills: [],
 
-    // UNIVERSITY PROJECT: VRGP
-    // Implementation on the Åboat.
-    // ROLE: PROJECT MANAGER.
-    // 10-2021-04.2022
-    // DESCRIPTION: To provide Software
-    // (Vessel Remote Guidance) for ships. An
-    // implementation for providing guidance
-    // to autonomous ships and safe docking.
     vrgProject:
     {
       type: 'UNIVERSITY PROJECT',
