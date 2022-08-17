@@ -15,27 +15,35 @@ export const Data = {
   skills: {
     technicalLabel: "Tecnologías",
     softLabel: "Skills",
-    technicalSkills: [
-      "Angular",
-      "React",
-      "Java",
-      "Nodejs",
-      "Spring Boot",
-      "Nestjs",
-      "APIM",
-      "SQL",
-      "Git",
-    ],
+    technicalSkills: [],
+
+    // UNIVERSITY PROJECT: VRGP
+    // Implementation on the Åboat.
+    // ROLE: PROJECT MANAGER.
+    // 10-2021-04.2022
+    // DESCRIPTION: To provide Software
+    // (Vessel Remote Guidance) for ships. An
+    // implementation for providing guidance
+    // to autonomous ships and safe docking.
+    vrgProject:
+    {
+      type: 'UNIVERSITY PROJECT',
+      info: 'VRGP Implementation on the About.',
+      role: "PROJECT MANAGER.",
+      date: '10-2021-04.2022',
+      description: `To provide Software (Vessel Remote Guidance) for ships. An implementation for providing guidance to autonomous ships and safe docking`
+    }
+    ,
+
     softSkills: [
-      "Capacidad de análisis",
-      "Resolución de Problemas",
-      "Pensamiento Crítico",
-      "Trabajo en equipo",
-      "Comunicación",
-      "Proactividad",
-      "Creatividad",
-      "Autodidacta",
-      "Mentoria",
+      "COMPUTER SKILL",
+      "DATA ENTRY",
+      "COMMUNICATION",
+      "CUSTOMER SERVICE",
+      "ANALYTICAL MINDSET",
+      "MICROSOFT OFFICE",
+      "DOCUMENTATION",
+      "WEB DEVELOPMENT",
     ],
   },
   socialMedia: {
