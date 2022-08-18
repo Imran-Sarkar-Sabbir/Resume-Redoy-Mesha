@@ -12,6 +12,30 @@ export const Data = {
     description:
       "Analista Programador, capacitado para desarrollar aplicaciones informáticas en diversas tecnologías y múltiples lenguajes de programación, aplicando metodologías ágiles de desarrollo, incluyendo identificación de necesidades y diseños de sistemas basados en modelos de desarrollo.",
   },
+  languages: [
+    {
+      name: 'Bangla',
+      percent: 100
+    },
+    {
+      name: 'English',
+      percent: 80
+    }
+  ],
+  organizations: [
+    {
+      title: 'International exchange student tutor',
+      period: "2022 | Turku, Finland",
+      org: '2. Åbo Akademi University',
+
+    },
+    {
+      title: 'Agriculture Secretary',
+      period: "03.2010 – 07.2015 | Dhaka, Bangladesh",
+      org: '1. Bangladesh Student League Dhaka South',
+
+    },
+  ],
   skills: {
     technicalLabel: "Tecnologías",
     softLabel: "Skills",
@@ -61,6 +85,12 @@ export const Data = {
       },
     ],
   },
+
+  courseAndInterest: {
+    courses: ["Hiking", 'Cooking', 'Billiards', 'Coffee', 'Gym'],
+    interests: ['HTML', 'CSS', 'JAVASCRIPT', 'PYTHON']
+  },
+
   experience: {
     works: [
       {

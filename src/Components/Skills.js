@@ -1,8 +1,6 @@
 import React from "react";
-import { VRGPProject } from '../Components/VrgpProject'
 
 export const Skills = ({
-  technicalLabel,
   softLabel,
   vrgProject,
   softSkills,
