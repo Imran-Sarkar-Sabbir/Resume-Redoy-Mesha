@@ -13,6 +13,9 @@ import { VRGPProject } from '../Components/VrgpProject'
 
 import { Data as dataSchema } from "../Schemas/Data";
 import { Menu as menuSchema } from "../Schemas/Menu";
+import Languages from "../Components/Languages";
+import Organizations from "../Components/Organizations";
+import CourseAndInterests from "../Components/CourseAndInterests";
 
 export const Resume = () => {
   const query = "(min-width: 968px)";
@@ -25,7 +28,7 @@ export const Resume = () => {
     return () => media.removeEventListener("change", listener);
   }, [matches]);
 
-  const { profile, aboutMe, skills, socialMedia, experience, vrgProject } = dataSchema;
+  const { profile, aboutMe, skills, socialMedia, experience, organizations, languages, courseAndInterest } = dataSchema;
 
   return (
     <>
@@ -36,14 +39,17 @@ export const Resume = () => {
           <div className="resume__left">
             <Profile {...profile} />
             {/* <AboutMe {...aboutMe} /> */}
-
             <Skills {...skills} />
-            <SocialMedia {...socialMedia} />
+            <Languages languages={languages} />
+            <Organizations organizations={organizations} />
+
           </div>
           <div className="resume__right">
             <Works {...experience} />
             <Academic {...experience} />
-            <Proyects {...experience} />
+            {/* <Proyects {...experience} /> */}
+            <CourseAndInterests {...courseAndInterest} />
+            <SocialMedia {...socialMedia} />
           </div>
         </div>
       </main>

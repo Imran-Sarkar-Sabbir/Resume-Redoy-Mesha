@@ -13,6 +13,23 @@
   --container-color-alt: #f7f9fb;
   --body-color: #f2f4f8;
 
+  /* ======== bar color */
+
+  --bg-light-mutated: #fff;
+  --bg-light-strong: rgb(172, 165, 165);
+
+
+  --bg-dark-mutated: rgb(172, 165, 165);
+  --bg-dark-strong: #fff;
+
+  --bg-mutate: var(--bg-light-mutated);
+  --bg-strong: var(--bg-light-strong);
+
+
+  /* ================== */
+
+
+
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 1.5rem;
@@ -92,6 +109,9 @@ body.dark-theme {
   --container-color: #2e3440;
   --container-color-alt: #3b4252;
   --body-color: #242933;
+
+  --bg-mutate: var(--bg-dark-mutated);
+  --bg-strong: var(--bg-dark-strong);
 }
 
 /*========== Options button ==========*/
@@ -461,6 +481,25 @@ body.dark-theme {
   }
 }
 
+.education_item {
+  display: flex;
+  align-items: center;
+}
+
+.education_bar {
+  background: var(--bg-mutate);
+  height: 7px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+  width: 160px;
+  margin-left: auto;
+}
+
+.education_bar_percent {
+  background-color: var(--bg-strong);
+  height: 100%;
+}
 
 /*  ============  */
 
