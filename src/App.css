@@ -501,6 +501,27 @@ body.dark-theme {
   height: 100%;
 }
 
+.course-interest {
+  display: flex;
+  align-items: flex-start;
+}
+
+.course-interest>* {
+  flex: 1;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px 8px;
+  margin: 5px 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 /*  ============  */
 
 .contact__info {

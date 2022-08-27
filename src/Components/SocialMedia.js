@@ -4,7 +4,7 @@ export const SocialMedia = ({ label, social }) => {
   return (
     <section className="social section">
       <h2 className="section-title">{label}</h2>
-      <div className="social__container bd-grid">
+      <div className="social__container items">
         {social.map((social) => <Social key={social.name} {...social} />)}
       </div>
     </section>
