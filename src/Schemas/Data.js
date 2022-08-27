@@ -66,23 +66,24 @@ export const Data = {
     label: "SOCIAL",
     social: [
       {
-        label: "Maaato",
+        label: "Hredoy Mesha",
+        name: "facebook",
+        url: "https://www.facebook.com/md.hredoy.mesha",
+        className: "bxl-facebook-circle",
+      },
+      {
+        label: "linkedin.com/in/meshahredoy",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/matias-alfonso-lagos-gajardo",
+        url: "https://www.linkedin.com/in/meshahredoy",
         className: "bxl-linkedin-square",
       },
       {
-        label: "Maaato",
-        name: "github",
-        url: "https://github.com/Maaato",
-        className: "bxl-github",
+        label: "live:meshahredoy",
+        name: "skype",
+        url: "live:meshahredoy",
+        className: "bxl-skype",
       },
-      {
-        label: "Maaato",
-        name: "twiiter",
-        url: "https://twitter.com/I_Maaato",
-        className: "bxl-twitter",
-      },
+
     ],
   },
 
